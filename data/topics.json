@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Artificial Intelligence",
+    "category": "Technology",
+    "summary": "AI is the simulation of human intelligence in machines.",
+    "content": "Artificial Intelligence includes machine learning, robotics, and more."
+  },
+  {
+  "title": "Quantum Computing",
+  "category": "Technology",
+  "summary": "Quantum computing is a new kind of computation using qubits.",
+  "content": "Unlike classical bits, qubits can be in multiple states at once..."
+  },
+  {
+    "title": "Photosynthesis",
+    "category": "Science",
+    "summary": "Photosynthesis is how plants use sunlight to make food.",
+    "content": "This process converts light energy into chemical energy using chlorophyll."
+  }
+]

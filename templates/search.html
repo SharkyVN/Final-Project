@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+  <h2>Search Results for "{{ query }}"</h2>
+  {% if results %}
+    <ul>
+      {% for topic in results %}
+        <li><a href="{{ url_for('topic', title=topic.title) }}">{{ topic.title }}</a> - {{ topic.category }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No results found.</p>
+  {% endif %}
+  <a href="/">← Back to home</a>
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+  <h2>{{ topic.title }}</h2>
+  <p><strong>Category:</strong> {{ topic.category }}</p>
+  <p><strong>Summary:</strong> {{ topic.summary }}</p>
+  <p>{{ topic.content }}</p>
+  <a href="/">← Back to all topics</a>
+{% endblock %}
