@@ -1,8 +1,12 @@
-# CS50 Finance
-
-This folder contains my solution to the CS50 Finance problem set (2025).
+InfoFinder
+This folder contains my solution to the CS50 Final Project (2025).
 
 Features:
-- User registration & login
-- Buying/selling stocks with real-time quotes
-- Viewing portfolio history
+
+Search topics from both a local database and Wikipedia
+
+Browse information by categories and tags
+
+Save favorites and view recent searches
+
+Mobile-friendly and dark mode support
